@@ -1,12 +1,12 @@
 window.onload = function () {
   let ps = placeSearch({
-    key: "vNH4YmGf1pMUK1iVQcCCQFaUXQMMVb5u",
+    key: "ck2OXUAJsF0iz999XGQ62jyXo8AXOVp7",
     container: document.querySelector("#search-input"),
     collection: ["adminArea", "address"],
     useDeviceLocation: true,
   });
 
-  L.mapquest.key = "vNH4YmGf1pMUK1iVQcCCQFaUXQMMVb5u";
+  L.mapquest.key = "ck2OXUAJsF0iz999XGQ62jyXo8AXOVp7";
 
   let baseLayer = L.mapquest.tileLayer("map");
   let map = L.mapquest.map("map", {
